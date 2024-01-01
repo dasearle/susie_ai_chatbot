@@ -49,6 +49,27 @@
     <!--<link rel="stylesheet" type="text/css" href="/homepage/assets/css/style1.css?v=1.2.2" />-->
     <script src="https://www.staysure.co.uk/wp-content/themes/staysure-wdr/assets/hp-assets/js/modernizr-custom.js?v=1.0.3" defer></script>
 
+<!-- Adding demo chatbot -->
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  project-id="noted-sandbox-408509"
+  agent-id="335130bf-2610-4598-aa12-2d13ce17dae9"
+  language-code="en">
+  <df-messenger-chat-bubble
+   chat-title="Susie">
+  </df-messenger-chat-bubble>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+  }
+</style>
+
+
 </head>
 
 <body>
